@@ -304,6 +304,8 @@ function setTime() {
 
 //Set the styling for the start screen intro paragraph
 function startScreen(content) {
+  //clear local storage
+  localStorage.clear();
   cardText.textContent = content;
   cardText.setAttribute("style", "text-align: center;");
   cardText.setAttribute("style", "font-size: 16px;");
