@@ -9,7 +9,9 @@ var scoreArray = [];
 var score = localStorage.getItem("scoreCounter");
 scoreOutput.textContent = "Final Score: " + score;
 var entries = [];
-
+//clear local storage
+localStorage.clear();
+//set score
 init();
 
 function renderScores() {
