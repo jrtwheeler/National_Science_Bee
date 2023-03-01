@@ -198,24 +198,24 @@ var myQuestions = [
     correctAnswer: "Fish",
   },
   {
-    question: "The International Space Station is a ________________ orbiting the lower regions of Earth's atmosphere.",
+    question: "are a goup of common, aquatic animals many of whom belong to the _____________.",
     answers: {
-      a: "modular house",
-      b: "modular laboratory",
-      c: "angular laboratory",
-      d: "mogular laboratory",
+      a: "vertebrate osteichthyes",
+      b: "vertebrate osteichthyes",
+      c: "vertebrate osteichthyes",
+      d: "vertebrate osteichthyes",
     },
-    correctAnswer: "modular laboratory",
+    correctAnswer: "vertebrate osteichthyes",
   },
   {
-    question: "The International Space Station is a modular laboratory orbiting the _____________ of Earth's atmosphere.",
+    question: "The cell _____ house its genetic material and is the site of DNZ replication.",
     answers: {
-      a: "lower regions",
-      b: "upper regions",
-      c: "middle regions",
-      d: "edge of space",
+      a: "nucleus",
+      b: "mitochondria",
+      c: "wall",
+      d: "modular",
     },
-    correctAnswer: "lower regions",
+    correctAnswer: "nucleus",
   },
 ];
 //Use querySelector to select the timer
