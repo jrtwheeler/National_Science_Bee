@@ -267,7 +267,7 @@ var progressBar = document.querySelector("#myProgress");
 //animate progress bar
 var progressBarValue = document.getElementById("#myBar");
 //Set the start time for the timer. When the timer reaches 0 the script will end.
-var timeLeft = 60;
+var timeLeft = 180;
 //Set the score counter
 var scoreCounter = 0;
 //Set the question counter
