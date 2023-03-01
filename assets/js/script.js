@@ -41,6 +41,120 @@ var myQuestions = [
     },
     correctAnswer: "life, ultra violet",
   },
+  {
+    question: "_________ are darker areas on the surface of the sun that indicate strong magnetic fields",
+    answers: {
+      a: "Sunspots",
+      b: "Stars",
+      c: "Sunflares",
+      d: "Solarspots",
+    },
+    correctAnswer: "Sunspots",
+  },
+  {
+    question:
+      "Sunspots are darker areas on the surface of the _______ that indicate __________________",
+    answers: {
+      a: "stars, powerful solar fields",
+      b: "moon, weak magnetic fields",
+      c: "sun, strong magnetic fields",
+      d: "earths, oceanic wave streams",
+    },
+    correctAnswer: "sun, strong magnetic fields",
+  },
+  {
+    question: "Voyager was a __________ mission that sent two probes to the edge of the solar system",
+    answers: {
+      a: "NASA",
+      b: "CIA",
+      c: "FBI",
+      d: "MADD",
+    },
+    correctAnswer: "NASA",
+  },
+  {
+    question: "Voyager was a NASA mission that sent ______ probes to the ______________",
+    answers: {
+      a: "three, edge of the solar system",
+      b: "one, edge of the solar system",
+      c: "three, edge of the moon",
+      d: "two, edge of the solar system",
+    },
+    correctAnswer: "two, edge of the solar system",
+  },
+  {
+    question: "_________ powers stars by combining different atomic nucleii in a process also called nucleosynthesis.",
+    answers: {
+      a: "Fusion",
+      b: "Fyoushun",
+      c: "Myoushun",
+      d: "Stars",
+    },
+    correctAnswer: "Fusion",
+  },
+  {
+    question:
+      "Fusion powers _______ by combining different atomic nucleii in a process also called nucleosynthesis",
+    answers: {
+      a: "stars",
+      b: "moon",
+      c: "sun",
+      d: "earths",
+    },
+    correctAnswer: "stars",
+  },
+  {
+    question: "Fusion powers stars by combining different _____________ in a process also called nucleosynthesis",
+    answers: {
+      a: "atomic nucleii",
+      b: "subatomic nucleii",
+      c: "atomic nucleus",
+      d: "subatomic nucleus",
+    },
+    correctAnswer: "atomic nucleii",
+  },
+  {
+    question: "Fusion powers stars by combining different atomic nucleii 
+    in a process also called _______________",
+    answers: {
+      a: "subnucleosynthesis",
+      b: "nucleosynthesis",
+      c: "nucleiisynthesis",
+      d: "wookies",
+    },
+    correctAnswer: "nucleosynthesis",
+  },
+  {
+    question:
+      "The _______ is a modular laboratory orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "National Space Station",
+      b: "International Station",
+      c: "Space House",
+      d: "International Space Station",
+    },
+    correctAnswer: "International Space Station",
+  },
+  {
+    question: "The International Space Station is a ________________ orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "modular house",
+      b: "modular laboratory",
+      c: "angular laboratory",
+      d: "mogular laboratory",
+    },
+    correctAnswer: "modular laboratory",
+  },
+  {
+    question: "The International Space Station is a modular laboratory orbiting the _____________ of Earth's atmosphere.",
+    answers: {
+      a: "lower regions",
+      b: "upper regions",
+      c: "middle regions",
+      d: "edge of space",
+    },
+    correctAnswer: "lower regions",
+  },
 ];
 //Use querySelector to select the timer
 var timerElement = document.querySelector(".timer");
