@@ -217,6 +217,44 @@ var myQuestions = [
     },
     correctAnswer: "nucleus",
   },
+  {
+    question: "The _____ is located in the constellation Ursala Major.",
+    answers: {
+      a: "Little Dipper",
+      b: "Big Dipper",
+      c: "North Star",
+      d: "Orion",
+    },
+    correctAnswer: "Big Dipper",
+  },
+  {
+    question: "The Big Dipper is located in the constellation ________.",
+    answers: {
+      a: "Ursala Major",
+      b: "Ursala Minor",
+      c: "Ursala the Sea Witch",
+    },
+    correctAnswer: "Ursala Major",
+  },
+  {
+    question: "The _____ is a process that involves an increase between different points.",
+    answers: {
+      a: "expansion of the universe",
+      b: "speed of light",
+      c: "speed of sound",
+      d: "thermodynamics",
+    },
+    correctAnswer: "expansion of the universe",
+  },
+  {
+    question: "The ________ is the process of transferring pollen from the anther of a plant to the sigma of another plant.",
+    answers: {
+      a: "probability",
+      b: "provocation",
+      c: "pollination",
+    },
+    correctAnswer: "pollination",
+  }
 ];
 //Use querySelector to select the timer
 var timerElement = document.querySelector(".timer");
