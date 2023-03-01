@@ -114,8 +114,7 @@ var myQuestions = [
     correctAnswer: "atomic nucleii",
   },
   {
-    question: "Fusion powers stars by combining different atomic nucleii 
-    in a process also called _______________",
+    question: "Fusion powers stars by combining different atomic nucleii in a process also called _______________",
     answers: {
       a: "subnucleosynthesis",
       b: "nucleosynthesis",
@@ -123,6 +122,69 @@ var myQuestions = [
       d: "wookies",
     },
     correctAnswer: "nucleosynthesis",
+  },
+  {
+    question:
+      "The _______ is a modular laboratory orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "National Space Station",
+      b: "International Station",
+      c: "Space House",
+      d: "International Space Station",
+    },
+    correctAnswer: "International Space Station",
+  },
+  {
+    question: "The International Space Station is a ________________ orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "modular house",
+      b: "modular laboratory",
+      c: "angular laboratory",
+      d: "mogular laboratory",
+    },
+    correctAnswer: "modular laboratory",
+  },
+  {
+    question: "The International Space Station is a modular laboratory orbiting the _____________ of Earth's atmosphere.",
+    answers: {
+      a: "lower regions",
+      b: "upper regions",
+      c: "middle regions",
+      d: "edge of space",
+    },
+    correctAnswer: "lower regions",
+  },
+  ,
+  {
+    question:
+      "_______ was an American astronomer who named a type of radiation that is emitted from black holes",
+    answers: {
+      a: "Stephen Hawking",
+      b: "Stephen Tyler",
+      c: "Samual Hawking ",
+      d: "Maddy James",
+    },
+    correctAnswer: "Stephen Hawking",
+  },
+  {
+    question: "Stephen Hawking was an American astronomer who named a type of what?",
+    answers: {
+      a: "stars that emitted a bright light",
+      b: "radiation that is emitted from black holes",
+      c: "moon that is emitted a low frequency",
+      d: "subatomic nucleus",
+    },
+    correctAnswer: "stars that emitted a bright light",
+  },
+  {
+    question: "What is the brightest star in the night sky?",
+    answers: {
+      a: "Dad",
+      b: "Sirius",
+      c: "Snape",
+      d: "Dogstarr",
+    },
+    correctAnswer: "Sirius",
   },
   {
     question:
@@ -289,7 +351,7 @@ function move() {
     progbar = 1;
     var elem = document.getElementById("myBar");
     var width = 1;
-    var id = setInterval(frame, 1000);
+    var id = setInterval(frame, 3000);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
