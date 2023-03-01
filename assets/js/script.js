@@ -173,7 +173,7 @@ var myQuestions = [
       c: "moon that is emitted a low frequency",
       d: "subatomic nucleus",
     },
-    correctAnswer: "stars that emitted a bright light",
+    correctAnswer: "radiation that is emitted from black holes",
   },
   {
     question: "What is the brightest star in the night sky?",
