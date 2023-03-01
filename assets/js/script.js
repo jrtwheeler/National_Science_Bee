@@ -1,45 +1,221 @@
 //Object of questions, answers, correct answer
 var myQuestions = [
   {
-    question: "Who invented JavaScript?",
+    question: "The fifth planet from the sun is also the largest",
     answers: {
-      a: "Douglas Crockford",
-      b: "Sheryl Sandberg",
-      c: "Brendan Eich",
-      d: "Steve Jobs",
+      a: "Earth",
+      b: "Mercury",
+      c: "Jupiter",
+      d: "Neptune",
     },
-    correctAnswer: "Douglas Crockford",
+    correctAnswer: "Jupiter",
   },
   {
     question:
-      "Which one of these is one of three languages all web developers must learn?",
+      "Jupiter is the _______ planet from the sun",
     answers: {
-      a: "Javascript",
-      b: "CSS",
-      c: "HTML",
-      d: "All of the above",
+      a: "First",
+      b: "Eigth",
+      c: "Ninth",
+      d: "Fifth",
     },
-    correctAnswer: "All of the above",
+    correctAnswer: "Fifth",
   },
   {
-    question: "How is a comment written in Javascript?",
+    question: "The _______ is the barrier protecting life on Earth from the sun's ultra violet rays.",
     answers: {
-      a: "//",
-      b: "<-- -->",
-      c: "/*",
-      d: "@Comment",
+      a: "ozone layer",
+      b: "nuclei",
+      c: "whizzbanger",
+      d: "mozone layer",
     },
-    correctAnswer: "//",
+    correctAnswer: "ozone layer",
   },
   {
-    question: "JavaScript variables are containers for storing:",
+    question: "The ozone layer is the barrier protecting _____ on Earth from the sun's ______ rays.",
     answers: {
-      a: "data values",
-      b: "strings",
-      c: "booleans",
-      d: "numbers",
+      a: "trees, heat",
+      b: "fish, ultra dry",
+      c: "life, ultra violet",
+      d: "wookies, death star",
     },
-    correctAnswer: "data values",
+    correctAnswer: "life, ultra violet",
+  },
+  {
+    question: "_________ are darker areas on the surface of the sun that indicate strong magnetic fields",
+    answers: {
+      a: "Sunspots",
+      b: "Stars",
+      c: "Sunflares",
+      d: "Solarspots",
+    },
+    correctAnswer: "Sunspots",
+  },
+  {
+    question:
+      "Sunspots are darker areas on the surface of the _______ that indicate __________________",
+    answers: {
+      a: "stars, powerful solar fields",
+      b: "moon, weak magnetic fields",
+      c: "sun, strong magnetic fields",
+      d: "earths, oceanic wave streams",
+    },
+    correctAnswer: "sun, strong magnetic fields",
+  },
+  {
+    question: "Voyager was a __________ mission that sent two probes to the edge of the solar system",
+    answers: {
+      a: "NASA",
+      b: "CIA",
+      c: "FBI",
+      d: "MADD",
+    },
+    correctAnswer: "NASA",
+  },
+  {
+    question: "Voyager was a NASA mission that sent ______ probes to the ______________",
+    answers: {
+      a: "three, edge of the solar system",
+      b: "one, edge of the solar system",
+      c: "three, edge of the moon",
+      d: "two, edge of the solar system",
+    },
+    correctAnswer: "two, edge of the solar system",
+  },
+  {
+    question: "_________ powers stars by combining different atomic nucleii in a process also called nucleosynthesis.",
+    answers: {
+      a: "Fusion",
+      b: "Fyoushun",
+      c: "Myoushun",
+      d: "Stars",
+    },
+    correctAnswer: "Fusion",
+  },
+  {
+    question:
+      "Fusion powers _______ by combining different atomic nucleii in a process also called nucleosynthesis",
+    answers: {
+      a: "stars",
+      b: "moon",
+      c: "sun",
+      d: "earths",
+    },
+    correctAnswer: "stars",
+  },
+  {
+    question: "Fusion powers stars by combining different _____________ in a process also called nucleosynthesis",
+    answers: {
+      a: "atomic nucleii",
+      b: "subatomic nucleii",
+      c: "atomic nucleus",
+      d: "subatomic nucleus",
+    },
+    correctAnswer: "atomic nucleii",
+  },
+  {
+    question: "Fusion powers stars by combining different atomic nucleii in a process also called _______________",
+    answers: {
+      a: "subnucleosynthesis",
+      b: "nucleosynthesis",
+      c: "nucleiisynthesis",
+      d: "wookies",
+    },
+    correctAnswer: "nucleosynthesis",
+  },
+  {
+    question:
+      "The _______ is a modular laboratory orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "National Space Station",
+      b: "International Station",
+      c: "Space House",
+      d: "International Space Station",
+    },
+    correctAnswer: "International Space Station",
+  },
+  {
+    question: "The International Space Station is a ________________ orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "modular house",
+      b: "modular laboratory",
+      c: "angular laboratory",
+      d: "mogular laboratory",
+    },
+    correctAnswer: "modular laboratory",
+  },
+  {
+    question: "The International Space Station is a modular laboratory orbiting the _____________ of Earth's atmosphere.",
+    answers: {
+      a: "lower regions",
+      b: "upper regions",
+      c: "middle regions",
+      d: "edge of space",
+    },
+    correctAnswer: "lower regions",
+  },
+  ,
+  {
+    question:
+      "_______ was an American astronomer who named a type of radiation that is emitted from black holes",
+    answers: {
+      a: "Stephen Hawking",
+      b: "Stephen Tyler",
+      c: "Samual Hawking ",
+      d: "Maddy James",
+    },
+    correctAnswer: "Stephen Hawking",
+  },
+  {
+    question: "Stephen Hawking was an American astronomer who named a type of what?",
+    answers: {
+      a: "stars that emitted a bright light",
+      b: "radiation that is emitted from black holes",
+      c: "moon that is emitted a low frequency",
+      d: "subatomic nucleus",
+    },
+    correctAnswer: "stars that emitted a bright light",
+  },
+  {
+    question: "What is the brightest star in the night sky?",
+    answers: {
+      a: "Dad",
+      b: "Sirius",
+      c: "Snape",
+      d: "Dogstarr",
+    },
+    correctAnswer: "Sirius",
+  },
+  {
+    question:
+      "_______ are a goup of common, aquatic animals many of whom belong to the vertebrate osteichthyes.",
+    answers: {
+      a: "Dolphins",
+      b: "Dogs",
+      c: "People",
+      d: "Fish",
+    },
+    correctAnswer: "Fish",
+  },
+  {
+    question: "The International Space Station is a ________________ orbiting the lower regions of Earth's atmosphere.",
+    answers: {
+      a: "modular house",
+      b: "modular laboratory",
+      c: "angular laboratory",
+      d: "mogular laboratory",
+    },
+    correctAnswer: "modular laboratory",
+  },
+  {
+    question: "The International Space Station is a modular laboratory orbiting the _____________ of Earth's atmosphere.",
+    answers: {
+      a: "lower regions",
+      b: "upper regions",
+      c: "middle regions",
+      d: "edge of space",
+    },
+    correctAnswer: "lower regions",
   },
 ];
 //Use querySelector to select the timer
