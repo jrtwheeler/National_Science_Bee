@@ -154,7 +154,6 @@ var myQuestions = [
     },
     correctAnswer: "lower regions",
   },
-  ,
   {
     question:
       "_______ was an American astronomer who named a type of radiation that is emitted from black holes",
