@@ -408,7 +408,7 @@ var timeLeft = 180;
 //Set the score counter
 var scoreCounter = 0;
 //Set the question counter
-var questionCounter = 0;
+var questionCounter = getRandomInt(1, myQuestions.length);
 //progressbar 
 var progbar = 0;
 //Set intervalID
@@ -419,6 +419,12 @@ var myIntro =
 
 startScreen(myIntro);
 submitButton.addEventListener("click", startButton);
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+}
 
 
 //The timer function. The timer function starts running when the user clicks the Start button and is called in function startScreen();
@@ -437,7 +443,7 @@ function setTime() {
       clearInterval(timerInterval);
       window.open("high_score.html", "_self");
     }
-  }, 1000);
+  }, 3000);
 }
 
 //Set the styling for the start screen intro paragraph
@@ -516,8 +522,8 @@ function setContent() {
       this.classList.add("bg-danger");
       timeLeft -= 10;
     }
-
-    questionCounter++;
+    questionCounter=getRandomInt(1, myQuestions.length);;
+    console.log(questionCounter);
     setTimeout(setContent, 1 * 1000);
   }
 
@@ -528,7 +534,7 @@ function move() {
     progbar = 1;
     var elem = document.getElementById("myBar");
     var width = 1;
-    var id = setInterval(frame, 1000);
+    var id = setInterval(frame, 3000);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
