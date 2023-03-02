@@ -187,7 +187,7 @@ var myQuestions = [
   },
   {
     question:
-      "_______ are a goup of common, aquatic animals many of whom belong to the vertebrate osteichthyes.",
+      "_______ are a group of common, aquatic animals many of whom belong to the vertebrate osteichthyes.",
     answers: {
       a: "Dolphins",
       b: "Dogs",
@@ -197,7 +197,7 @@ var myQuestions = [
     correctAnswer: "Fish",
   },
   {
-    question: "are a goup of common, aquatic animals many of whom belong to the _____________.",
+    question: "are a group of common, aquatic animals many of whom belong to the _____________.",
     answers: {
       a: "vertebrate osteichthyes",
       b: "vertebrate osteichthyes",
@@ -253,7 +253,36 @@ var myQuestions = [
       c: "pollination",
     },
     correctAnswer: "pollination",
-  }
+  },
+  {
+    question: "________ also known as adipose, is a type of tissue that stores energy and accumulates in obesity.",
+    answers: {
+      a: "Fat tissue",
+      b: "Muscle tissue",
+      c: "Brain tissue",
+    },
+    correctAnswer: "Fat tissue",
+  },
+  {
+    question: "Fat tissue also known as __________, is a type of tissue that stores energy and accumulates in obesity.",
+    answers: {
+      a: "adipose",
+      b: "addison",
+      c: "madipose",
+    },
+    correctAnswer: "adipose",
+  },
+  {
+    question: "The __________, is an organelle.",
+    answers: {
+      a: "riposone",
+      b: "ribosone",
+      c: "bipirone",
+      d: "pibosome"
+    },
+    correctAnswer: "adipose",
+  },
+
 ];
 //Use querySelector to select the timer
 var timerElement = document.querySelector(".timer");
