@@ -207,7 +207,7 @@ var myQuestions = [
     correctAnswer: "vertebrate osteichthyes",
   },
   {
-    question: "The cell _____ house its genetic material and is the site of DNZ replication.",
+    question: "The cell _____ house its genetic material and is the site of DNA replication.",
     answers: {
       a: "nucleus",
       b: "mitochondria",
@@ -217,7 +217,7 @@ var myQuestions = [
     correctAnswer: "nucleus",
   },
   {
-    question: "The _____ is located in the constellation Ursala Major.",
+    question: "The _____ is located in the constellation Ursa Major.",
     answers: {
       a: "Little Dipper",
       b: "Big Dipper",
@@ -229,11 +229,11 @@ var myQuestions = [
   {
     question: "The Big Dipper is located in the constellation ________.",
     answers: {
-      a: "Ursala Major",
-      b: "Ursala Minor",
+      a: "Ursa Major",
+      b: "Ursa Minor",
       c: "Ursala the Sea Witch",
     },
-    correctAnswer: "Ursala Major",
+    correctAnswer: "Ursa Major",
   },
   {
     question: "The _____ is a process that involves an increase between different points.",
@@ -273,16 +273,125 @@ var myQuestions = [
     correctAnswer: "adipose",
   },
   {
-    question: "The __________, is an organelle.",
+    question: "The __________ is an organelle that is the site of protein synthesis within a",
     answers: {
       a: "riposone",
       b: "ribosone",
       c: "bipirone",
       d: "pibosome"
     },
-    correctAnswer: "adipose",
+    correctAnswer: "ribosome",
   },
-
+  {
+    question: "__________ are the reproductive components of angiosperms, plants that contain seed-producing fruits.",
+    answers: {
+      a: "Flowers",
+      b: "Chocolates",
+      c: "Staymens",
+      d: "Leaves"
+    },
+    correctAnswer: "Flowers",
+  },
+  {
+    question: "__________ is a steroid hormone that is prorduced by the adrenal glands. This hormone regulates the body's blood sugar, though it is most associated with the stress response.",
+    answers: {
+      a: "Steroids",
+      b: "Cortisol",
+      c: "Adrenaline",
+      d: "Biosphere"
+    },
+    correctAnswer: "Cortisol",
+  },
+  {
+    question: "In a  __________, the first trophic level consists of autotrophs, which produce their own food.",
+    answers: {
+      a: "food chain",
+      b: "rainbow",
+      c: "periodic table",
+      d: "food pyramid"
+    },
+    correctAnswer: "food chain",
+  },
+  {
+    question: "The __________ consists of four chambers, with the top two chambers called the right and left atria and the lower two chambers called the right and left ventricles.",
+    answers: {
+      a: "pancreas",
+      b: "heart",
+      c: "eyeball",
+      d: "appendix"
+    },
+    correctAnswer: "heart",
+  },
+  {
+    question: "__________ are an early hominid species that lived in Asia and Europe until 40,000 yeares ago.",
+    answers: {
+      a: "Gorgons",
+      b: "Hefalumps",
+      c: "Bipeds",
+      d: "Neanderthals"
+    },
+    correctAnswer: "Neanderthals",
+  },
+  {
+    question: "Animals that lived in the __________ include the Triceratops and the Tyrannosaurus Rex.",
+    answers: {
+      a: "Cretaceous period",
+      b: "Ice Age",
+      c: "Jurassic period",
+      d: "Triassic period"
+    },
+    correctAnswer: "Cretaceous period",
+  },
+  {
+    question: "The __________ is the longest bone in the human body.",
+    answers: {
+      a: "radial bone",
+      b: "rib cage",
+      c: "femur",
+      d: "thorax"
+    },
+    correctAnswer: "femur",
+  },
+  {
+    question: "The __________ is the primary organ of the human body's central nervous system, which processes sensory input. It is a complex organ that consists of four lobes that each play a different role in information processing.",
+    answers: {
+      a: "tongue",
+      b: "brain",
+      c: "hypothalamus",
+      d: "corpous colossum"
+    },
+    correctAnswer: "brain",
+  },
+  {
+    question: "The __________ is a double-bilayer structure that controls the movement of materials in and out of the cell.",
+    answers: {
+      a: "mitochondria",
+      b: "white blood cell",
+      c: "plasma membrane",
+      d: "occipital bone"
+    },
+    correctAnswer: "plasma membrane",
+  },
+  {
+    question: "__________ is one-third of the density of steel and has the atommic number 27 .",
+    answers: {
+      a: "Gold",
+      b: "Uranium",
+      c: "Neon",
+      d: "Aluminum"
+    },
+    correctAnswer: "Aluminum",
+  },
+  {
+    question: "__________ is the chemical process of removing natural colors from a product.",
+    answers: {
+      a: "Corrosion",
+      b: "Collision",
+      c: "Burping",
+      d: "Bleaching"
+    },
+    correctAnswer: "Bleaching",
+  }
 ];
 //Use querySelector to select the timer
 var timerElement = document.querySelector(".timer");
