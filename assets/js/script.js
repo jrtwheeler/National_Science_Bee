@@ -391,7 +391,277 @@ var myQuestions = [
       d: "Bleaching"
     },
     correctAnswer: "Bleaching",
-  }
+  },
+  {
+    question: "__________ is an alkali metal with the atonmic number of 11. The chemical formula for salt is NaCl, meaning it forms by a 1:1 ration of sodium and chloride ions.",
+    answers: {
+      a: "Sodium",
+      b: "Calcium",
+      c: "Nitrogen",
+      d: "Copper"
+    },
+    correctAnswer: "Sodium",
+  },
+  {
+    question: "__________ is the lowest possible temperature where atoms of a substance are motionless. It is measured at 0 degrees Kelvin or -273.15 degrees Celsius or -459.67 degrees Fahrenheit.",
+    answers: {
+      a: "Total zero",
+      b: "Absolute zero",
+      c: "Super negative",
+      d: "Dead zero"
+    },
+    correctAnswer: "Absolute zero",
+  },
+  {
+    question: "__________ is a silvery-white heavy metal with the atomic number 92.",
+    answers: {
+      a: "Curium",
+      b: "Aluminium",
+      c: "Silver",
+      d: "Uranium"
+    },
+    correctAnswer: "Uranium",
+  },
+  {
+    question: "The dots of a __________ represent the valence elecdtronis of a molecule.",
+    answers: {
+      a: "Lewis structure",
+      b: "dot matrix",
+      c: "dot-to-do puzzle",
+      d: "Boyle's law box"
+    },
+    correctAnswer: "Lewis structure",
+  },
+  {
+    question: "The __________ of a substance indicates how acidic or basic it is based on its hydrogen ion concentration.",
+    answers: {
+      a: "weight",
+      b: "PhD",
+      c: "pH",
+      d: "acidosis"
+    },
+    correctAnswer: "pH",
+  },
+  {
+    question: "__________ are a unit of memory involved in computing. They can be prefaced with kilo- , mega-, giga-, and others depending on their number",
+    answers: {
+      a: "Bytes",
+      b: "PDFs",
+      c: "Booleans",
+      d: "Brainos"
+    },
+    correctAnswer: "Bytes",
+  },
+  {
+    question: "__________ allows users to store their data on off-site locations.",
+    answers: {
+      a: "Rainbow storage",
+      b: "Cloud storage",
+      c: "Safe boxes",
+      d: "Unit blocks"
+    },
+    correctAnswer: "Cloud storage",
+  },
+  {
+    question: "__________ are a type of large, destructive wave that can be caused by seismic events.",
+    answers: {
+      a: "Super waves",
+      b: "Typhoons",
+      c: "Bomb waves",
+      d: "Tsunamis"
+    },
+    correctAnswer: "Tsumnamis",
+  },
+  {
+    question: "__________ is the natural form of silicon dioxide.",
+    answers: {
+      a: "Quartz",
+      b: "Amethyst",
+      c: "Diamond",
+      d: "Corodonum"
+    },
+    correctAnswer: "Quartz",
+  },
+  {
+    question: "Silicate rock is the primary component of the __________, a region whose upper ductile portion is known as the asthenosphere.",
+    answers: {
+      a: "Earth's core",
+      b: "Earth's mantle",
+      c: "Volcanic surface",
+      d: "Biosphere"
+    },
+    correctAnswer: "Earth's mantle",
+  },
+  {
+    question: "__________ come in different varieties, including the thin and wispy cirrus and the tall and towering cumulonimbus.",
+    answers: {
+      a: "Thunderbolts",
+      b: "Mesas",
+      c: "Coniferous trees",
+      d: "Clouds"
+    },
+    correctAnswer: "Clouds",
+  },
+  {
+    question: "The layers of a __________ include the emergent, canopy, and understory. Temperate and tropical are two different varieties of this place.",
+    answers: {
+      a: "rainforest",
+      b: "mangrove forest",
+      c: "biome",
+      d: "tundra"
+    },
+    correctAnswer: "rainforest",
+  },
+  {
+    question: "__________ are a type of aquatic habitate home to numerous organism. The largest of these systems is the Great Barrier in Australia.",
+    answers: {
+      a: "The sunlight zone",
+      b: "Kelp forests",
+      c: "Brine lakes",
+      d: "Coral reefs"
+    },
+    correctAnswer: "Coral reefs",
+  },
+  {
+    question: "__________ are structures of the Earth, whose movements can cause continental drift.",
+    answers: {
+      a: "Tectonic plates",
+      b: "Rings of fire",
+      c: "Porcelain plates",
+      d: "Continental shelves"
+    },
+    correctAnswer: "Tectonic plates",
+  },
+  {
+    question: "__________ is an iron sulfide mineral that is also known as fool's gold due to its lustrous colors.",
+    answers: {
+      a: "Pirate",
+      b: "Pyrite",
+      c: "Steel",
+      d: "Sulfur"
+    },
+    correctAnswer: "Pyrite",
+  },
+  {
+    question: "__________ is a diagram constructued by its namesake French mathematician in which each number is equal to the sum of the two numbers above.",
+    answers: {
+      a: "Pascal's triangle",
+      b: "Confucius's circle",
+      c: "Marcel Marceau's shape",
+      d: "Pythagoreus's theorum"
+    },
+    correctAnswer: "Pacal's triangle",
+  },
+  {
+    question: "__________ is a statistical property that describes the condition in which the outcomes of one event has no relevance or effect on the outcome of another event.",
+    answers: {
+      a: "Freedom",
+      b: "Equilibrium",
+      c: "Venn's diagram",
+      d: "Independence"
+    },
+    correctAnswer: "Independence",
+  },
+  {
+    question: "The __________ is a round, three-dimensional shape with no edges.",
+    answers: {
+      a: "Circle",
+      b: "Cone",
+      c: "Sphere",
+      d: "Pyramid"
+    },
+    correctAnswer: "Sphere",
+  },
+  {
+    question: "Numbers are said to be __________ when the product of their squares is negative.",
+    answers: {
+      a: "Imaginary",
+      b: "Fake",
+      c: "Illusional",
+      d: "Non-existant"
+    },
+    correctAnswer: "Imaginary",
+  },
+  {
+    question: "__________ is a type of matter whose properties are opposite of the properties of normal atoms.",
+    answers: {
+      a: "Antihero",
+      b: "Antechamber",
+      c: "Dark matter",
+      d: "Antimatter"
+    },
+    correctAnswer: "Antimatter",
+  },
+  {
+    question: "The __________ represents the numbers of protons that an atom contains in its nucleus.",
+    answers: {
+      a: "electron load",
+      b: "atomic number",
+      c: "elemental number",
+      d: "atomic hour"
+    },
+    correctAnswer: "atomic number",
+  },
+  {
+    question: "__________ is a state of matter that consists of a high concentration of charged particles.",
+    answers: {
+      a: "Spasmoid",
+      b: "Cold fusion",
+      c: "Plasma",
+      d: "Nucleoid"
+    },
+    correctAnswer: "Plasma",
+  },
+  {
+    question: "The __________, also known as Mach-1, is a sonic barrier that creates a sonic boom when crossed.",
+    answers: {
+      a: "Speed of sound",
+      b: "Sonic sound",
+      c: "Speed of light",
+      d: "Weight of sound"
+    },
+    correctAnswer: "speed of sound",
+  },
+  {
+    question: "__________ is a force that opposes motion between two surfaces.",
+    answers: {
+      a: "Gravity",
+      b: "Kinetic energy",
+      c: "Static",
+      d: "Friction"
+    },
+    correctAnswer: "Friction",
+  },
+  {
+    question: "__________ are particles with a negative charge that orbit the nucleus.",
+    answers: {
+      a: "Electrons",
+      b: "Ions",
+      c: "Protons",
+      d: "Neutrons"
+    },
+    correctAnswer: "Electrons",
+  },
+  {
+    question: "__________ is the measure of a system's disorder. All systems tend toward entropy according tothe Second Law of Thermodynamics.",
+    answers: {
+      a: "Entropy",
+      b: "Confusion",
+      c: "Displacement",
+      d: "Toxicity"
+    },
+    correctAnswer: "Bleaching",
+  },
+  {
+    question: "__________ is a type of energy that an object possesses due to its motion. It is usually contrasted with potential energy.",
+    answers: {
+      a: "Physical motion",
+      b: "Kinetic energy",
+      c: "Heat",
+      d: "Speedball"
+    },
+    correctAnswer: "Kinetic energy",
+  },
 ];
 //Use querySelector to select the timer
 var timerElement = document.querySelector(".timer");
