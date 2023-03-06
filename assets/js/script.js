@@ -470,7 +470,7 @@ var myQuestions = [
       c: "Bomb waves",
       d: "Tsunamis"
     },
-    correctAnswer: "Tsumnamis",
+    correctAnswer: "Tsunamis",
   },
   {
     question: "__________ is the natural form of silicon dioxide.",
@@ -550,7 +550,7 @@ var myQuestions = [
       c: "Marcel Marceau's shape",
       d: "Pythagoreus's theorum"
     },
-    correctAnswer: "Pacal's triangle",
+    correctAnswer: "Pascal's triangle",
   },
   {
     question: "__________ is a statistical property that describes the condition in which the outcomes of one event has no relevance or effect on the outcome of another event.",
@@ -620,7 +620,7 @@ var myQuestions = [
       c: "Speed of light",
       d: "Weight of sound"
     },
-    correctAnswer: "speed of sound",
+    correctAnswer: "Speed of sound",
   },
   {
     question: "__________ is a force that opposes motion between two surfaces.",
@@ -650,7 +650,7 @@ var myQuestions = [
       c: "Displacement",
       d: "Toxicity"
     },
-    correctAnswer: "Bleaching",
+    correctAnswer: "Entropy",
   },
   {
     question: "__________ is a type of energy that an object possesses due to its motion. It is usually contrasted with potential energy.",
@@ -674,7 +674,7 @@ var progressBar = document.querySelector("#myProgress");
 //animate progress bar
 var progressBarValue = document.getElementById("#myBar");
 //Set the start time for the timer. When the timer reaches 0 the script will end.
-var timeLeft = 180;
+var timeLeft = 600;
 //Set the score counter
 var scoreCounter = 0;
 //Set the question counter
@@ -685,7 +685,7 @@ var progbar = 0;
 var timerInterval;
 //This is the introductory paragraph
 var myIntro =
-  "Try to answer the following coding questions in one minute. Every wrong answer takes ten seconds from the timer. Press start to begin.";
+  "Try to answer the following science bee questions in ten minutes. Every wrong answer takes ten seconds from the timer. Press start to begin.";
 
 startScreen(myIntro);
 submitButton.addEventListener("click", startButton);
@@ -804,7 +804,7 @@ function move() {
     progbar = 1;
     var elem = document.getElementById("myBar");
     var width = 1;
-    var id = setInterval(frame, 3000);
+    var id = setInterval(frame, 6000);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
